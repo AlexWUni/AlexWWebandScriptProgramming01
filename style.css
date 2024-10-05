@@ -1,43 +1,43 @@
 @charset "UTF-8";
 /* Color scheme: #010101, #007FFF, ##003FA3, #FF8000, #808080 #EFEFEF */
 body {
-    background-color:  #EFEFEF;
-  }
+  background-color:  #EFEFEF;
+}
   
 h1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #003FA3;
-    color: #EFEFEF;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #003FA3;
+  color: #EFEFEF;
+}
 
 ul {
-    position: absolute;
-    top: 0;
-    left: 216px;
-    width: 50%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+  position: absolute;
+  top: 0;
+  left: 216px;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
   
   li {
-    float: left;
-    width: 25%;
-    max-width: 128px;
-  }
+  float: left;
+  width: 25%;
+  max-width: 128px;
+}
 
 li a {
-    display: block;
-    padding: 8px;
-    background-color: #003FA3;
-    color: #EFEFEF
-  }
+  display: block;
+  padding: 8px;
+  background-color: #003FA3;
+  color: #EFEFEF
+}
 
 h2 {
   position: fixed;
@@ -103,4 +103,14 @@ form {
   top: 64px;
   margin: 16px;
   width: 99%;
+}
+
+.box{
+  position: relative;
+  top: 96px;
+  height: 192px;
+  width: 192px;
+  float: left;
+  margin: 16px;
+  background-color: #007FFF;
 }
