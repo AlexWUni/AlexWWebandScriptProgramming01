@@ -30,10 +30,27 @@
         </div>
     </header>
     <h2 class = "pageTitle"> Contact <span> Me </span> </h2>
-    <article>
-      <h3> temp </h3>
-      <p> temp </p>
-    </article>
+    <form action="mailto:alexander.wu@ontariotechu.net" method="post" enctype="text/plain">
+      <p>
+        <label for = "name"> Name: </label>
+        <input type = "text" name = "name" size = "64" placeholder = "Enter your name">
+      </p>
+      <p>
+          <label for = "email"> Email: </label>
+          <input name = "email" type = "email" size = "80" placeholder = "Enter your email" required>
+        </p>
+        <p>
+          <label for = "tel"> Phone Number: </label>
+          <input name = "tel" type = "tel" size = "10" placeholder = "Enter your phone number" required>
+        </p>
+        <p>
+          <label for = "message"> Message: </label>
+          <textarea name = "message" cols = "120" rows = "12"> </textarea>
+        </p>
+        <p>
+          <input type = "submit" value = "Send"/>
+        </p>
+    </form>
     <footer id = "footer">
         <h4> <span> Made by Alexander Wu 2024 </span> <span> Email: alexander.wu@ontariotechu.net </span> </h4>
     </footer>

@@ -97,3 +97,10 @@ h4 {
   background-color: #FF8000;
   color: #010101;
 }
+
+form {
+  position: fixed;
+  top: 64px;
+  margin: 16px;
+  width: 99%;
+}
