@@ -64,7 +64,6 @@ h2 {
   top: 64px;
   margin: 16px;
   display: flex;
-  align-items: left;
   justify-content: left;
   flex-direction: column;
   width: 99%;
@@ -72,7 +71,6 @@ h2 {
 
 h3 {
   display: flex;
-  align-items: left;
   justify-content: left;
   flex-direction: column;
   width: 90%;
@@ -84,7 +82,6 @@ h3 {
 
 p {
   display: flex;
-  align-items: left;
   justify-content: left;
   flex-direction: column;
   width: 90%;
@@ -160,7 +157,6 @@ img {
   top: 64px;
   margin: 16px;
   display: flex;
-  align-items: left;
   justify-content: left;
   flex-direction: column;
   width: 100%;
