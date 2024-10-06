@@ -31,12 +31,36 @@
       </div>
     </div>
   </header>
+  <div class = "about">
+    <article>
+      <p>
+        My name is Alexander Wu. I am a second year student at OntarioTechU and my favourite colour is blue.
+        I like aviation and dislike doing anything graphical or UI related.
+        I am 21 years old at the time of making this website and I would like to be a IT Security Threat Hunter.
+      </p>
+    </article>
+  </div>
+
+  <img src = "Me.jpg">
 
   <h2 class = "pageTitle"> About <span> Me </span> </h2>
-  <article>
-    <h3> temp </h3>
-    <p> temp </p>
-  </article>
+  <video width="320" height="240" controls id="video">
+    <source src="About Me.mp4" type="video/mp4">
+    <source src="About-Me.ogv" type="video/ogg">
+  </video>
+
+  <br>
+  <button onclick="playPause()">Play/Pause</button>
+  <script>
+    var myVideo=document.getElementById("video");
+    function playPause()
+    {
+    if (myVideo.paused)
+    myVideo.play();
+    else myVideo.pause();
+    }
+  </script>
+
   <footer id = "footer">
     <h4> <span> Made by Alexander Wu 2024 </span> <span> Email: alexander.wu@ontariotechu.net </span> </h4>
   </footer>

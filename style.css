@@ -112,5 +112,46 @@ form {
   width: 192px;
   float: left;
   margin: 16px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 192px;
   background-color: #007FFF;
+}
+
+.box a{
+  color: #EFEFEF;
+}
+
+video {
+  position: fixed;
+  top: 246px;
+  left: 140px;
+  margin: 5px;
+}
+
+button {
+  position: fixed;
+  top: 490px;
+  left: 145px;
+  background-color: #007FFF;
+  color:#EFEFEF;
+}
+
+img {
+  position: fixed;
+  top: 250px;
+  left: 10px;
+  height: 260px;
+  width: 130px;
+}
+
+.about {
+  position: fixed;
+  top: 64px;
+  margin: 16px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  width: 50%;
 }
